@@ -69,8 +69,7 @@ public class CaesarCipher {
 	public static void main(String[] args) {
 		CaesarCipher cs = new CaesarCipher();
 		cs.testEncryptTwoKeys();
-		//cs.testCaesar();
+		cs.testCaesar();
 	}
-	
 	
 }
