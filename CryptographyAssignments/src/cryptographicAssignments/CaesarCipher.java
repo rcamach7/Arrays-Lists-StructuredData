@@ -70,6 +70,7 @@ public class CaesarCipher {
 		CaesarCipher cs = new CaesarCipher();
 		cs.testEncryptTwoKeys();
 		cs.testCaesar();
+		// End of assignment
 	}
 	
 }
