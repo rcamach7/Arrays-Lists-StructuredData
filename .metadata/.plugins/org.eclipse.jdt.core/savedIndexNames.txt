@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+/Users/ricardo_pc/Library/Mobile Documents/com~apple~CloudDocs/ATA Workspace/ArraysListsStructuredDataCourse/.metadata/.plugins/org.eclipse.jdt.core
+3962246166.index
+76479536.index
+4231025374.index
+4294380131.index
