@@ -62,15 +62,15 @@ public class CaesarCipher {
 		}
 		return answerBuilder.toString();
 	}
+	
 	public void testEncryptTwoKeys() {
-		System.out.println(encryptTwoKeys("At noon be in the conference room with your hat on for a surprise party. YELL LOUD!", 8, 21));
+		System.out.println(encryptTwoKeys("this is the last test for week one", 8, 21));
 	}
 	
 	public static void main(String[] args) {
 		CaesarCipher cs = new CaesarCipher();
 		cs.testEncryptTwoKeys();
-		cs.testCaesar();
-		// End of assignment
+		//cs.testCaesar();
 	}
 	
 }
