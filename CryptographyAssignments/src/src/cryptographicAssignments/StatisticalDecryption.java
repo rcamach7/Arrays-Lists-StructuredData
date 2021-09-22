@@ -1,4 +1,4 @@
-package cryptographicAssignments;
+package src.cryptographicAssignments;
 
 public class StatisticalDecryption {
 
