@@ -13,7 +13,7 @@ public class WordFrequency {
 	
 	public void findUnique() {
 		
-		FileResource resource = new FileResource("/Users/rcamach7/Library/Mobile Documents/com~apple~CloudDocs/ATA Workspace/ArraysListsStructuredDataCourse/GladLibsArrayListsW2/src/data/testwordfreqs.txt");	
+		FileResource resource = new FileResource("/Users/rcamach7/Library/Mobile Documents/com~apple~CloudDocs/ATA Workspace/ArraysListsStructuredDataCourse/GladLibsArrayListsW2/src/data/likeit.txt");	
 		for (String s: resource.words()) {
 			s = s.toLowerCase();
 			int index = myWords.indexOf(s);
