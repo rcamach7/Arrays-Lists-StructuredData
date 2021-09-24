@@ -43,14 +43,8 @@ public class CharacterInPlay {
 	}
 	
 	public void charactersWithNumParts(int num1, int num2) {
-		// This method should print out the names of all those characters that have exactly number 
-		// speaking parts, where number is greater than or equal to num1 and less than or equal to num2. 
-		// Add code in tester to test this method out.
-	}
-	
-	public void printCharacters() {
 		for (int i = 0; i < counts.size(); i++) {
-			if (counts.get(i) > 9 &&  counts.get(i) < 16) {
+			if (counts.get(i) > num1 &&  counts.get(i) < num2) {
 				System.out.println(characters.get(i) + " " + counts.get(i));
 			}
 		}
@@ -65,6 +59,6 @@ public class CharacterInPlay {
 	public void myTest() {
 		CharacterInPlay c = new CharacterInPlay();
 		c.findAllCharacters();
-		c.printCharacters();
+		c.charactersWithNumParts(5, 100);
 	}
 }
