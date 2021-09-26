@@ -22,6 +22,18 @@ public class Tester {
         //System.out.println(spy.size());
         
         //System.out.println(analyze.countUniqueIPsInRange(300, 399));
+        
+//        HashMap<String, Integer> uniqueVisits = new HashMap<String, Integer>();
+//        uniqueVisits = analyze.countVisitsPerIP();
+//        System.out.println(uniqueVisits);
+//        System.out.println(analyze.mostNumberVisitsByIP(uniqueVisits));
+//        System.out.println(analyze.iPsMostVisits(uniqueVisits));
+        
+        HashMap<String, ArrayList<String>> myMap = analyze.iPsForDays();
+        System.out.println(myMap);
+        System.out.println(analyze.dayWithMostIPVisits(myMap));
+        
+        System.out.println(analyze.iPsWithMostVisitsOnDay(myMap, "Mar 17"));
     }
     
 	public static void main(String[] args) {
