@@ -10,17 +10,15 @@ public class VigenereCipher {
         }
     }
     
-    public String encrypt(String message) {
-    	// 
+    public String encrypt(String input) {
         StringBuilder answer = new StringBuilder();
         int i = 0;
-        for (char c : message.toCharArray()) {
+        for (char c : input.toCharArray()) {
             int cipherIndex = i % ciphers.length;
-            CaesarCipher currentCipher = ciphers[cipherIndex];
-            answer.append(currentCipher.encryptLetter(c));
+            CaesarCipher thisCipher = ciphers[cipherIndex];
+            answer.append(thisCipher.encryptLetter(c));
             i++;
         }
-        
         return answer.toString();
     }
     

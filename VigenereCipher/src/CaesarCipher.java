@@ -31,9 +31,9 @@ public class CaesarCipher {
     private String transform(String input, String from, String to){
         StringBuilder sb = new StringBuilder(input);
         for (int i = 0; i < sb.length(); i++) {
-            char currentCharacter = sb.charAt(i);
-            currentCharacter = transformLetter(currentCharacter, from, to);
-            sb.setCharAt(i, currentCharacter);
+            char c = sb.charAt(i);
+            c = transformLetter(c, from, to);
+            sb.setCharAt(i, c);
         }
         return sb.toString();
     }
@@ -49,5 +49,5 @@ public class CaesarCipher {
     public String toString() {
         return "" + theKey;
     }
-
+    
 }
