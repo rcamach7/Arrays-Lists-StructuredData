@@ -96,7 +96,6 @@ public class VigenereBreaker {
     	FileResource dictionaryFile = new FileResource("dictionaries/English.txt");
     	HashSet<String> dictionary = readDictionary(dictionaryFile);    	
     	
-    	// 5, 11, 20, 19, 4 are the keys for this message
     	int[] foundKeys = tryKeyLength(battleMessage, 38, 'e');
     	VigenereCipher vc = new VigenereCipher(foundKeys);
     	String battleMessageDecrypt = vc.decrypt(battleMessage);
@@ -121,10 +120,5 @@ public class VigenereBreaker {
     	int ans = countWords(decryptedMessage, dictionary);
     	System.out.println(ans);
 
-    	// 57
-    	// 31658
-    	// The Tragedy of Hamlet, Prince of Denmark
-    	// 4485
-    	
     }
 }
