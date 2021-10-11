@@ -1,4 +1,4 @@
-package GladLibsArray.data;
+package data;
 import java.util.*;
 
 import edu.duke.FileResource;

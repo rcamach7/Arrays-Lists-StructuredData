@@ -1,4 +1,4 @@
-package CryptographyAssignments;
+package src.CryptographyAssignments;
 import edu.duke.FileResource;
 
 public class Main {

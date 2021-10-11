@@ -1,4 +1,4 @@
-package GladLibsArray;
+
 import java.util.*;
 
 public class CodonAssignment { 

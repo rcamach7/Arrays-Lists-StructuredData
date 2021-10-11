@@ -1,4 +1,4 @@
-package ReadingWebLogs;
+package src.ReadingWebLogs;
 
 
 /**

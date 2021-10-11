@@ -1,4 +1,4 @@
-package VigenereCipher;
+package src.VigenereCipher;
 
 
 public class App {

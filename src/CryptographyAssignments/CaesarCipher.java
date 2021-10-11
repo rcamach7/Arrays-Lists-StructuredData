@@ -1,4 +1,4 @@
-package CryptographyAssignments;
+package src.CryptographyAssignments;
 
 public class CaesarCipher {
 
